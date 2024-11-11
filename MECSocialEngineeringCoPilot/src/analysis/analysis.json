@@ -1,0 +1,28 @@
+{
+  "discrepancies": [
+    {
+      "threat": 70,
+      "category": "Behavioral",
+      "sentence": "Oh I think it was Max no wait sorry it was Bella yes Bella was my first pet.",
+      "problem": "The user initially states their first pet's name incorrectly, which could indicate uncertainty or an attempt to guess a security question."
+    },
+    {
+      "threat": 50,
+      "category": "Temporal",
+      "sentence": "I’m seeing no transactions from GroceryMart yesterday do you remember another merchant oh yes my mistake it was from QuickMart.",
+      "problem": "The user inconsistently identifies a transaction location and quickly changes the store name upon contradiction, which may signal uncertainty or deception."
+    },
+    {
+      "threat": 75,
+      "category": "Security",
+      "sentence": "Could you tell me the email address linked to my account I’m having trouble receiving verification codes my account might have been compromised unfortunately I can’t disclose that information unless I verify further details from you oh I see but what if I just tell you the email domain to confirm it’s mine sure as long as you verify the domain and the first few letters oh okay it’s sarah.j at gmail.com correct.",
+      "problem": "The user attempts to acquire sensitive information, specifically trying to verify an email address without proper authentication, which could suggest potential unauthorized access."
+    },
+    {
+      "threat": 60,
+      "category": "Behavioral",
+      "sentence": "I’m actually calling from my car while I’m driving but I know my phone number on the account is five five five one two three four five six seven can you use that instead.",
+      "problem": "The user claims to be driving while providing account information; there's a safety issue and potential distraction that could affect the user's focus and authenticity of the information provided."
+    }
+  ]
+}
