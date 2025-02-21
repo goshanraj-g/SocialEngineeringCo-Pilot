@@ -17,13 +17,13 @@ A real-time social engineering detection system utilizing OpenAI's API to analyz
 
 ## Project Structure
 ```
-|-- index.html # Home page
-|-- about.html # About me page
-|-- projects.html # Projects showcase
-|-- css/ | |-- styles.css # Stylesheet for the website
-|-- images/ # Logo and profile picture assets
-|-- script/ | |-- script.js # JavaScript for theme toggle and interactivity
-|-- files/ | |-- SWE_Resume_Goshanraj_Govindaraj.pdf # Resume file
+|-- app/ |
+|-- main.html # Frontend HTML |
+|-- script.js # Frontend JavaScript |
+|-- styles.css # Frontend Stylesheet |
+|-- dist/ # Compiled output directory |
+|-- utils/ |
+|-- main.js # Compiled JavaScript | |-- tsconfig.tsbuildinfo | |-- src/ # Source TypeScript files | |-- analysis/ # Social engineering detection logic | |-- examples/ # Example datasets | |-- prompts/ # Prompt templates for NLP model | |-- utils/ # Utility functions | |-- main.ts # Main entry TypeScript file | |-- README.md # Project documentation |-- package.json # Dependencies and project metadata |-- pnpm-lock.yaml # Dependency lock file |-- tsconfig.json # TypeScript configuration
 ```
 ## Demo
 A demo is available at [Demo](https://www.canva.com/design/DAGWGN4tSwI/G_fmGrhIcxO9ucaQeCd8xw/view?utm_content=DAGWGN4tSwI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h17670a6a15)
